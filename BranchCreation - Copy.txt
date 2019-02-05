@@ -1,0 +1,410 @@
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git pull
+From https://github.com/pankajthorat133/NewTestdemo
+ * [new branch]      NewBranch  -> origine/NewBranch
+Already up to date.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git branch
+* master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git branch development
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git branch
+  development
+* master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git chakeout development
+git: 'chakeout' is not a git command. See 'git --help'.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git branch
+  development
+* master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git checkout development
+Switched to branch 'development'
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git branch
+* development
+  master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git status
+On branch development
+nothing to commit, working tree clean
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git commit
+On branch development
+nothing to commit, working tree clean
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git branch
+* development
+  master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git status
+On branch development
+nothing to commit, working tree clean
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git push development
+fatal: The current branch development has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream development development
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git push --set-upstream development
+fatal: The current branch development has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream development development
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git push --set-upstream development development
+fatal: 'development' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git checkout master'
+> c^C
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (development)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origine/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git branch
+  development
+* master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git branch Test
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git branch
+  Test
+  development
+* master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (master)
+$ git checkout Test
+Switched to branch 'Test'
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git branch
+* Test
+  development
+  master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git add *
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git status
+On branch Test
+nothing to commit, working tree clean
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push Test
+fatal: The current branch Test has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream Test Test
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push --set-upstream Test Test
+fatal: 'Test' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push --set-upstream Master Test
+fatal: 'Master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push --set-upstream Test Master
+fatal: 'Test' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push --set-upstream origin Test
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push --set-upstream Test
+fatal: The current branch Test has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream Test Test
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push origin
+fatal: The current branch Test has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Test
+
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push --set-upstream origin Test
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push -u origin Test
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git push --set-upstream https://github.com/pankajthorat133/validationdemo Test
+Username for 'https://github.com': pankajthorat133
+thoratEnumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (23/23), 3.17 KiB | 648.00 KiB/s, done.
+Total 23 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'Test' on GitHub by visiting:
+remote:      https://github.com/pankajthorat133/validationdemo/pull/new/Test
+remote:
+To https://github.com/pankajthorat133/validationdemo
+ * [new branch]      Test -> Test
+Branch 'Test' set up to track remote branch 'Test' from 'https://github.com/pankajthorat133/validationdemo'.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git branch
+* Test
+  development
+  master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git branch TestDb
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git branch
+* Test
+  TestDb
+  development
+  master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (Test)
+$ git checkout testDb
+Switched to branch 'testDb'
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (testDb)
+$ git branch
+  Test
+  TestDb
+  development
+  master
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (testDb)
+$ git push ^C
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (testDb)
+$ git push --set-upstream https://github.com/pankajthorat133/NewTestdemo TestDb
+Username for 'https://github.com': pankajthorat133
+Enumerating objects: 9, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 605 bytes | 302.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'TestDb' on GitHub by visiting:
+remote:      https://github.com/pankajthorat133/NewTestdemo/pull/new/TestDb
+remote:
+To https://github.com/pankajthorat133/NewTestdemo
+ * [new branch]      TestDb -> TestDb
+Branch 'TestDb' set up to track remote branch 'TestDb' from 'https://github.com/pankajthorat133/NewTestdemo'.
+
+Master@IN-LP-18 MINGW64 /d/NewTestDemo (testDb)
+$
